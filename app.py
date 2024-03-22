@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 from flask import session as fsession
-from flask_login import login_required, LoginManager
 import smtplib
 import os
 import random
