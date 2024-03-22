@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades</title>
+    <link rel="stylesheet" href="/static/css/gstyles.css">
+</head>
+<body>
+    <div id="loading-container" style="display: none;">
+      <div class="lds-hourglass" id="loading-symbol"></div>
+    </div>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <div class="leftside-nav">
+                    <a href="privacy.html">Privacy</a>
+                    <a href="#">About</a>
+                    
+                </div>
+                <div class="center-logo">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <div class="rightside-nav">
+                    <a href="clubber.html">eClubber</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="banner">
+            <img src="images/eclubber.png" alt="eClubber">
+            <h3 id="timerHeader"></h3>
+            <a onclick="checkID()" class="banner-button">Check it out</a>
+            <span id="spots-left"></span>
+        </div>
+        <div class="grades-container" id="grades-container">
+            <!-- Grades will be displayed here by JavaScript -->
+        </div>
+    </div>
+
+    <button id=logout type='back' onclick="logout()" style="margin-bottom: 1rem;">Logout</button>
+    <script src="/static/js/grades-script.js"></script>
+</body>

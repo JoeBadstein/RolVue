@@ -1,0 +1,181 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Disable scrolling */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(255, 182, 182, 0.8), rgba(255, 165, 0, 0.8));
+  backdrop-filter: blur(10px);
+}
+
+/* Animation Text */
+.animation-container {
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  background: white;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { background: transparent }
+  50% { background: white; }
+}
+
+
+.input-container, .checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  opacity: 0;
+}
+
+/* Back Arrow */
+.back-arrow {
+  position: absolute;
+  bottom: 60px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+}
+
+/* Input and Labels */
+input, select {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Checkbox Styles */
+.checkbox-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background: #333;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* Error Label */
+.error-label {
+  color: red;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Hidden Element */
+.hidden {
+  display: none;
+}
+
+
+button[type='submit'] {
+  font-size: 1.1rem;
+  color: white;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+button[type='submit']:hover {
+  background-color: darkred;
+}
+
+
+/* Mobile Support */
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 1rem;
+  }
+  input, select {
+    width: 100%;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  background-color: white;
+  vertical-align: bottom; /* Align with the text */
+  animation: blink 1s infinite; /* Make it blink */
+}
+
+@keyframes blink {
+  0%, 100% { background-color: transparent; }
+  50% { background-color: white; }
+}
+
+/* Animation for Zooming Out to Left */
+.zoom-out-left {
+  animation: zoomOutLeft 0.5s ease-in-out;
+}
+
+@keyframes zoomOutLeft {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.475) translate3d(-42px, 0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+  }
+}
+
+#animated-text {
+  font-weight: bold;
+  text-align: center; 
+  line-height: 2;
+}

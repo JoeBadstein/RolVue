@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eClubber Signup</title>
+    <link rel="stylesheet" href="/static/css/clubber.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Initial Animation Container -->
+        <div id="animation-container" class="animation-container">
+            <span id="animated-text"></span>
+            <span class="cursor"></span>
+        </div>
+
+        <!-- Phone Number Input -->
+        <div id="phone-container" class="input-container hidden">
+          <input type="tel" id="phone-number" name="phone-number" placeholder="123-456-7890" pattern="[0-9+\-()\s]+" required>
+          <label for="phone-number">We need your phone number to add you to the mailing list.</label>
+          <button type="submit" class="submit-button">Next</button>
+        </div>
+        <!-- Carrier Dropdown -->
+        <div id="carrier-container" class="input-container hidden">
+            <label for="carrier">Select your carrier:</label>
+            <select id="carrier" name="carrier" required>
+                <option value="">--Select your carrier--</option>
+                <option value="vtext.com">Verizon</option>
+                <option value="txt.att.net">AT&T</option>
+                <option value="messaging.sprintpcs.com">Sprint</option>
+                <option value="tmomail.net">T-Mobile</option>
+                <option value="vmobl.com">Virgin Mobile</option>
+                <option value="mms.cricketwireless.net">Cricket Wireless</option>
+                <option value="message.alltel.com">Alltel</option>
+                <option value="msg.fi.google.com">Google Fi</option>
+            </select>
+          <button type="submit" class="submit-button">Next</button>
+        </div>
+
+        <!-- Text Timing Preferences -->
+        <div id="preference-container" class="checkbox-container hidden">
+            <label for="text-preference">When would you like to receive your texts?</label>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="lunch" name="lunch"><label for="lunch">During Lunch</label>
+                <input type="checkbox" id="before9" name="before9"><label for="before9">Before 9th</label>
+                <input type="checkbox" id="after9" name="after9"><label for="after9">After 9th</label>
+            </div>
+            <button type="submit" id="preference-submit">Submit</button>
+        </div>
+
+        <!-- Verification Code -->
+        <div id="verification-container" class="input-container hidden">
+            
+            <input type="text" id="verification-code" placeholder='123456' pattern='[0-9]{6}'>
+            <label id="verification-error" class="error-label hidden">Invalid code or number already in use.</label>
+            <label for="verification-code">Enter the verification code:</label><br>
+            <label for='verification-code'>If you've put in the right number/ and carrier but you're still not receiving a text, try connecting to mobile data and redoing the form. If it still doesn't work, contact the 'Rol for assistance.</label>
+            <button type="submit" class="submit-button">Verify</button>
+        </div>
+
+        <!-- Back Arrow Button -->
+        <button id="back-arrow" class="back-arrow hidden">←</button>
+    </div>
+
+    <script src="/static/js/clubber.js"></script>
+    <script src="/static/js/funcs.js"></script>
+</body>
+</html>

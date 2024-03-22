@@ -1,0 +1,1626 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta content="text/html; charset=utf-8" http-equiv="content-type"/><meta content="IE=edge" http-equiv="X-UA-Compatible"/><meta content="width=device-width, user-scalable=yes" name="viewport"/><title>
+	StudentVUE
+</title><meta content="en-US" name="language"/><meta content="private - general audiences" name="rating"/><meta content="2005 - Edupoint,Inc" name="copyright"/><meta content="Edupoint, LLC" name="author"/><link href="synergy.ico" rel="Shortcut Icon"/>
+<script type="text/javascript">
+        var OEN = { Configurations: {} };
+        window.PXP = window.PXP || { Translations: {} };
+        window.ST = window.ST || {};
+        window.ST.Translations = window.ST.Translations || {};
+        ST.NFAList = ST.NFAGlobalList = '<REV_RETURN/>';
+
+        PXP.AGU = '';
+	PXP.GBInitialGradingPeriods = {};
+	PXP.GBFocusData = {"CanShowCourseContent":false,"Schools":[{"SchoolID":199,"SchoolName":"Montgomery Blair High","GradingPeriods":[{"Name":"MP1 Interim","GroupName":"Regular","GU":"8EE59F0A-3964-46F9-8A47-8804CAB6EB0E","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP1 Interim","GU":"B7BD1997-871A-40C8-8827-A3440A597518"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP1","GroupName":"Regular","GU":"45088F55-63F9-4B40-A586-F436CBD9C798","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP1","GU":"FA969022-82F2-4F29-9A6B-AF72B6416527"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP2 Interim","GroupName":"Regular","GU":"3A8A356D-4845-4CA7-B65B-CCBE805F9346","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP2 Interim","GU":"5162394C-A123-4E61-A8C1-E263DE9180FB"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP2","GroupName":"Regular","GU":"E15C8047-82BB-47CF-B8FE-3C08397AD2DA","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP2","GU":"17D7E2CF-BE37-4A14-8541-B86FB33AF17D"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP3 Interim","GroupName":"Regular","GU":"0C92889E-7ED3-4F72-B144-CB824B06B299","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP3 Interim","GU":"AF932D5B-291A-4805-B99B-9CE90BF53FDC"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP3","GroupName":"Regular","GU":"A612FD07-0074-44D2-A46D-B97B74942D58","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP3","GU":"F1A4B853-C11C-4A3A-9B7B-2A67FBE09988"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP4 Interim","GroupName":"Regular","GU":"9BC80404-3F1E-4443-AB76-66631B66B5BF","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP4 Interim","GU":"6A09DD65-BBC7-4258-9568-47E65D1380A5"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP4","GroupName":"Regular","GU":"2CB87D66-FCA8-413D-A217-3FD941233C76","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP4","GU":"F942C618-D4A5-4705-B203-0FFB82589F30"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":true}]}],"GradingPeriods":[{"Name":"MP1 Interim","GroupName":"Regular","GU":"8EE59F0A-3964-46F9-8A47-8804CAB6EB0E","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP1 Interim","GU":"B7BD1997-871A-40C8-8827-A3440A597518"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP1","GroupName":"Regular","GU":"45088F55-63F9-4B40-A586-F436CBD9C798","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP1","GU":"FA969022-82F2-4F29-9A6B-AF72B6416527"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP2 Interim","GroupName":"Regular","GU":"3A8A356D-4845-4CA7-B65B-CCBE805F9346","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP2 Interim","GU":"5162394C-A123-4E61-A8C1-E263DE9180FB"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP2","GroupName":"Regular","GU":"E15C8047-82BB-47CF-B8FE-3C08397AD2DA","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP2","GU":"17D7E2CF-BE37-4A14-8541-B86FB33AF17D"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP3 Interim","GroupName":"Regular","GU":"0C92889E-7ED3-4F72-B144-CB824B06B299","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP3 Interim","GU":"AF932D5B-291A-4805-B99B-9CE90BF53FDC"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP3","GroupName":"Regular","GU":"A612FD07-0074-44D2-A46D-B97B74942D58","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP3","GU":"F1A4B853-C11C-4A3A-9B7B-2A67FBE09988"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP4 Interim","GroupName":"Regular","GU":"9BC80404-3F1E-4443-AB76-66631B66B5BF","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP4 Interim","GU":"6A09DD65-BBC7-4258-9568-47E65D1380A5"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":false},{"Name":"MP4","GroupName":"Regular","GU":"2CB87D66-FCA8-413D-A217-3FD941233C76","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[{"Name":"MP4","GU":"F942C618-D4A5-4705-B203-0FFB82589F30"}],"OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","schoolID":199,"defaultFocus":true}]};
+	PXP.GBCurrentFocus = {"LoadParams":{"ControlName":null,"HideHeader":false},"FocusArgs":{"viewName":"","studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336598,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":9117,"assignmentID":-1,"standardIdentifier":"","AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":""}};
+	PXP.EncryptedStudentGU = 'u2XucO4Ss%2bgyfYzy9OaV16G05Dno%2bTD87dRdRQ2BqmOujH9jDLYzjXhEYqRFpptL3Gm0tbMn8Cr9IaIoboYUxw%3d%3d';
+	PXP.ShowClassGrades = false;
+	PXP.ImageRoot = 'images/PXP/';
+	PXP.UseGoogleAPI = false;
+	ST.Impersonated = false;
+	ST.VideoConferenceLicensed = true;
+	ST.VideoConferenceEnabled = false;
+	ST.VideoConferenceConfigured = false;
+	ST.ImpersonateCanJoin = false;
+	ST.SessionLength = 20;
+	PXP.SessionTimeout = 7200;
+	ST.ResourceCacheString = '2023-05-24T22%3a16%3a09.0000000';
+	ST.Authorization = {
+  "access_token": "authorized"
+};
+	PXP.StreamsEnabled = false;
+	PXP.SynergyMailEnabled = true;
+	PXP.IncludeAdditionalStaffWhenEmailingTeachers = false;
+	applicationRoot = '/';
+	CURRENT_WEB_PORTAL = 'StudentVUE';
+	PXP.Translations.Counselor = {
+  "RequestCounselorVisit": "Request Counselor Office Visit",
+  "Instructions": "Fill in the reason and a description below to request a meeting with your counselor: @COUNSELOR_NAME@",
+  "SelectReason": "Select Reason",
+  "SelectAReason": "Select a reason",
+  "CurrentMeetings": "Current Meetings",
+  "RequestedOn": "Requested On",
+  "ScheduledFor": "Scheduled For",
+  "ViewDetails": "View Details",
+  "Note": "View Details",
+  "Close": "Close",
+  "RequestMeeting": "Request Meeting",
+  "DeleteRequest": "Delete Request",
+  "DeleteMessage": "Are you sure you want to delete this request?",
+  "ErrNoteRequired": "Note is a required field",
+  "ErrReasonRequired": "Reason is a required field",
+  "MissingCounselor": "No counselor is assigned. Please contact school office."
+};
+	PXP.Translations.EmailVal = {
+  "EmailSent": "Email Sent"
+};
+	PXP.MomentLocaleConfig = {
+  "parentLocale": "en",
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "monthsShort": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "monthsParseExact": true,
+  "weekdays": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "weekdaysShort": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "weekdaysMin": [
+    "S",
+    "M",
+    "T",
+    "W",
+    "T",
+    "F",
+    "S"
+  ],
+  "weekdaysParseExact": true,
+  "calendar": null,
+  "relativeTime": null
+};
+	PXP.AllowAbsenceNote = false;
+	PXP.MONTH_NAMES = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
+	PXP.Translations.ReportAbsences = {
+  "ErrUnableToSave": "Unable to Save",
+  "ErrInvalidDate": "Invalid Date",
+  "ErrMissingFields": "Please specify both a date and a reason.",
+  "ErrMissingNote": "Missing required field: Note",
+  "ErrMissingDate": "Please enter a start date.",
+  "ErrMissingReason": "Please enter a reason.",
+  "Error": "Error",
+  "Saved": "Saved Absence Request.",
+  "ReportAbsences": "Report Absences",
+  "Instructions": "Please select the day(s) for which the student will be absent, enter a reason for the absence, then click submit.",
+  "Previous": "Previous",
+  "Next": "Next",
+  "Add": "Add",
+  "SelectAReason": "Select A Reason",
+  "Save": "Save",
+  "Close": "Close",
+  "StartDate": "Start Date",
+  "EndDate": "End Date (optional)",
+  "UploadAbsenseNote": "Add doctor's note or document"
+};
+	PXP.NavigationData = {
+  "items": [
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_None_gs.png",
+      "activeClass": "",
+      "url": "Home_PXP2.aspx?AGU=0",
+      "description": "Home",
+      "notificationIcon": "",
+      "iconExists": false,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Messages_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Messages.aspx?AGU=0",
+      "description": "Synergy Mail",
+      "notificationIcon": "<span title=\"12 unread messages\" class=\"MessageNotificationBox SynergyMailUnread\">12</span>",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Calendar_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Calendar.aspx?AGU=0",
+      "description": "Calendar",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Attendance_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Attendance.aspx?AGU=0",
+      "description": "Attendance",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_ClassSchedule_gs.png",
+      "activeClass": "",
+      "url": "PXP2_ClassSchedule.aspx?AGU=0",
+      "description": "Class Schedule",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Conference_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Conference.aspx?AGU=0",
+      "description": "Conference",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_CourseHistory_gs.png",
+      "activeClass": "",
+      "url": "PXP2_CourseHistory.aspx?AGU=0",
+      "description": "Course History",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_CourseRequest_gs.png",
+      "activeClass": "",
+      "url": "PXP2_CourseRequest.aspx?AGU=0",
+      "description": "Course Request",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Gradebook_gs.png",
+      "activeClass": "active",
+      "url": "PXP2_Gradebook.aspx?AGU=0&studentGU=7847B270-8790-4ED5-A7EF-C6E28873542E",
+      "description": "Grade Book",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_ReportCard_gs.png",
+      "activeClass": "",
+      "url": "PXP2_ReportCard.aspx?AGU=0",
+      "description": "Report Card",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_SchoolInfo_gs.png",
+      "activeClass": "",
+      "url": "PXP2_SchoolInformation.aspx?AGU=0",
+      "description": "School Information",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_StudentInfo_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Student.aspx?AGU=0",
+      "description": "Student Info",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    },
+    {
+      "moduleIcon": "Images/PXP/ModuleIcons/icon_Documents_gs.png",
+      "activeClass": "",
+      "url": "PXP2_Documents.aspx?AGU=0",
+      "description": "Documents",
+      "notificationIcon": "",
+      "iconExists": true,
+      "enabled": true
+    }
+  ],
+  "students": [
+    {
+      "agu": "0",
+      "name": "Erol",
+      "sisNumber": "147098",
+      "school": "Montgomery Blair High",
+      "phone": "240-740-7200",
+      "photo": "Photos/78/7847B270-8790-4ED5-A7EF-C6E28873542E_Photo.PNG",
+      "current": true
+    }
+  ]
+};
+	PXP.Translations.Navigation = {
+  "CurrentModule": "Current Module"
+};
+	PXP.UseGoogleAPI = false;
+	ST.Impersonated = false;
+	ST.VideoConferenceLicensed = true;
+	ST.VideoConferenceEnabled = false;
+	ST.VideoConferenceConfigured = false;
+	ST.ImpersonateCanJoin = false;
+	PXP.Translations.ReportTryAgain = 'The document is being built.  Please try again in a few moments.';
+	PXP.AccessibilityMode = false;
+	PXP.UsePXP2Interface = true;
+	PXP.ShowTeacherPhotos = PXP.ShowTeacherPhotos || false;
+	PXP.GBInitialGradingPeriods["2CB87D66-FCA8-413D-A217-3FD941233C76"] = {"Name":null,"GroupName":"Regular","GU":"2CB87D66-FCA8-413D-A217-3FD941233C76","IsSubjectView":false,"IsLoaded":false,"Classes":[],"Subjects":[],"StandardSubjects":[],"MarkPeriods":[],"OrgYearGU":null,"schoolID":199,"defaultFocus":false};
+	ST.UserType = 2;
+	ST.Impersonated = false;
+	ST.CurrentWebPortal = 3;
+	ST.SM_ShowExperimental = false;
+	ST.SM_Mode = 2;
+	ST.SM_SynergyMailStaffAccess = false;
+	ST.SM_CheckUnreadMessagesTimeout = 60000;
+	ST.SM_MaxAttachmentSizeMB = 20;
+	ST.SM_DefaultDuration = 60;
+	ST.SM_BlockedExtensions = ["ADE","ADP","BAT","CHM","CMD","COM","CPL","EXE","HTA","INS","ISP","JAR","JS","JSE","LIB","LNK","MDE","MSC","MSI","MSP","MST","NSH","PIF","SCR","SCT","SHB","SYS","VB","VBE","VBS","VXD","WSC","WSF","WS"];
+	ST.SM_EnableForwarding = true;
+	ST.SM_StaffRecipientAccess = 0;
+	ST.SM_TeacherStudentAccess = 0;
+	ST.SM_ParentRecipientAccess = 0;
+	ST.SM_StudentRecipientAccess = 0;
+	ST.SM_ContactListSecurity = 0;
+	ST.SM_StaffTabVisible = true;
+	ST.SM_ParentsTabVisible = true;
+	ST.SM_StudentsTabVisible = true;
+	ST.SM_ClassesTabVisible = true;
+	ST.SM_UserGroupsTabVisible = false;
+	ST.SM_StudentGroupsTabVisible = false;
+	ST.SM_MassEmailTabVisible = false;
+	ST.SM_ContactListsTabVisible = false;
+	ST.SM_TeachersTabVisible = true;
+	ST.SM_CounselorsTabVisible = true;
+	ST.SM_JobTitleColumnVisible = true;
+	ST.SM_TypeColumnVisible = true;
+	ST.SM_ContactLogOption = 1;
+	ST.SM_VidConfContactLogOption = 0;
+	ST.SM_VidConfMeetingAuth = false;
+	ST.SM_ShowBCC = false;
+	ST.SM_CanViewMail = true;
+	ST.SM_DefaultFolderType = 0;
+	ST.SM_RevLanguageCodeEnglish = 'ENG';
+	ST.SM_ContactCategoriesEnabled = true;
+	ST.SM_DefaultContactLogCategory = "";
+	ST.SM_VidConfDefaultContactLogCategory = "";
+	ST.Translations.Mail_Actions = 'Actions';
+	ST.Translations.Mail_AddAttachment = 'Add Attachment';
+	ST.Translations.Mail_AddRecipients = 'Add Recipients';
+	ST.Translations.Mail_AddressTo = 'Address To';
+	ST.Translations.Mail_AddToCalendar = 'Add to Calendar';
+	ST.Translations.Mail_Archive = 'Archive';
+	ST.Translations.Mail_ArchiveAll = 'Trash All';
+	ST.Translations.Mail_AttachmentExtensionBlocked = 'Attachment has a blocked extension.';
+	ST.Translations.Mail_Attachments = 'Attachments';
+	ST.Translations.Mail_AttachmentTooLarge = 'Attachment exceeded the maximum size of @@maxAttachmentSizeMB@@ MB.';
+	ST.Translations.Mail_AttachmentsUploading = 'Attachments Uploading';
+	ST.Translations.Mail_AttachmentsUploadingWaitOrCancel = 'You must either wait for the attachments to finish uploading or cancel them.';
+	ST.Translations.Mail_AutosavedAt = 'Auto-saved at';
+	ST.Translations.Mail_Autosaving = 'Auto-saving';
+	ST.Translations.Mail_Back = 'Back';
+	ST.Translations.Mail_BCC = 'Bcc';
+	ST.Translations.Mail_BCCSender = 'Blind Copy Me';
+	ST.Translations.Mail_BlankSubjectAndBodyText = 'You must enter text in the subject or body.';
+	ST.Translations.Mail_BlankSubjectAndBodyTitle = 'Blank subject and body';
+	ST.Translations.Mail_BlankSubjectText = 'Are you sure you want to send this message with a blank subject?';
+	ST.Translations.Mail_BlankSubjectTitle = 'Blank subject';
+	ST.Translations.Mail_Cancel = 'Cancel';
+	ST.Translations.Mail_CC = 'Cc';
+	ST.Translations.Mail_Classes = 'Classes';
+	ST.Translations.Mail_Close = 'Close';
+	ST.Translations.Mail_Compose = 'Compose';
+	ST.Translations.Mail_ContactGroup = 'Contact List';
+	ST.Translations.Mail_ContactGroups = 'Contact Lists';
+	ST.Translations.Mail_Contacts = 'Contacts';
+	ST.Translations.Mail_ContactCategory = 'Contact Category';
+	ST.Translations.Mail_Counselor = 'Counselor';
+	ST.Translations.Mail_Course = 'Course';
+	ST.Translations.Mail_CourseID = 'Course ID';
+	ST.Translations.Mail_Date = 'Date';
+	ST.Translations.Mail_Delete = 'Delete';
+	ST.Translations.Mail_DeleteAll = 'Delete All';
+	ST.Translations.Mail_DeleteAllMessagesText = 'Are you sure you want to delete all messages?';
+	ST.Translations.Mail_DeleteAllMessagesTitle = 'Delete All Messages';
+	ST.Translations.Mail_DeleteContactGroup = 'Delete Contact List';
+	ST.Translations.Mail_DeleteContactGroupText = 'Are you sure you want to delete this Contact List?';
+	ST.Translations.Mail_DeleteFolder = 'Delete Folder';
+	ST.Translations.Mail_DeleteFolderText = 'Are you sure you want to delete @@folder@@?';
+	ST.Translations.Mail_DeleteFolderTitle = 'Delete folder';
+	ST.Translations.Mail_DeleteMessagesText = 'Are you sure you want to delete @@numMessages@@?';
+	ST.Translations.Mail_DeleteMessagesTitle = 'Delete @@messages@@';
+	ST.Translations.Mail_Description = 'Description';
+	ST.Translations.Mail_Discard = 'Discard';
+	ST.Translations.Mail_DiscardMessageText = 'Are you sure you want to discard this message?';
+	ST.Translations.Mail_DiscardMessageTitle = 'Discard message';
+	ST.Translations.Mail_District = 'District';
+	ST.Translations.Mail_Drafts = 'Drafts';
+	ST.Translations.Mail_DragDropInfo = 'You can drag and drop attachments here.';
+	ST.Translations.Mail_Duration = 'Duration';
+	ST.Translations.Mail_Edit = 'Edit';
+	ST.Translations.Mail_Editable = 'Editable';
+	ST.Translations.Mail_EditableByStaff = 'Editable By Staff';
+	ST.Translations.Mail_EditContactGroup = 'Edit Contact List';
+	ST.Translations.Mail_EditFolder = 'Edit Folder';
+	ST.Translations.Mail_EditSignatures = 'Edit Signatures';
+	ST.Translations.Mail_EndTime = 'End Time';
+	ST.Translations.Mail_EnableForwarding = 'Forward a copy of Synergy Mail messages to the following email addresses:';
+	ST.Translations.Mail_EnterFolderName = 'Enter Folder Name';
+	ST.Translations.Mail_EnterValidFolderName = 'Please enter a valid folder name.';
+	ST.Translations.Mail_ErrorOccurredText = 'Details';
+	ST.Translations.Mail_ErrorOccurredTitle = 'Error occurred';
+	ST.Translations.Mail_Folders = 'Folders';
+	ST.Translations.Mail_Forward = 'Forward';
+	ST.Translations.Mail_From = 'From';
+	ST.Translations.Mail_Grade = 'Grade';
+	ST.Translations.Mail_Grades = 'Grades';
+	ST.Translations.Mail_Group = 'Group';
+	ST.Translations.Mail_GroupName = 'Group Name';
+	ST.Translations.Mail_Groups = 'Groups';
+	ST.Translations.Mail_HideDeletedMessages = 'Hide deleted messages';
+	ST.Translations.Mail_HideDetails = 'Hide Details';
+	ST.Translations.Mail_HideOriginalText = 'Hide Original Message';
+	ST.Translations.Mail_Inbox = 'Inbox';
+	ST.Translations.Mail_JobTitle = 'Job Title';
+	ST.Translations.Mail_JoinMeeting = 'Join Meeting';
+	ST.Translations.Mail_Loading = 'Loading';
+	ST.Translations.Mail_LoadingTranslation = 'Loading Translation';
+	ST.Translations.Mail_MarkAllRead = 'Mark All Read';
+	ST.Translations.Mail_MarkAllUnread = 'Mark All Unread';
+	ST.Translations.Mail_MarkAsRead = 'Mark As Read';
+	ST.Translations.Mail_MarkAsUnread = 'Mark As Unread';
+	ST.Translations.Mail_MassEmail = 'Mass Email';
+	ST.Translations.Mail_Meeting = 'Meeting';
+	ST.Translations.Mail_MeetingStartDate = 'Meeting Start Date';
+	ST.Translations.Mail_MeetingStartDateInPast = 'Meeting Start Date must be in the future.';
+	ST.Translations.Mail_MeetingStartDateInvalid = 'Meetings are not allowed to be scheduled more than 30 days beyond the end of the school year.';
+	ST.Translations.Mail_MeetingStartDateInvalidConfirm = 'Meeting is currently scheduled to occur beyond the end of the school year. Okay to proceed?';
+	ST.Translations.Mail_Message = 'message';
+	ST.Translations.Mail_MessageContent = 'message';
+	ST.Translations.Mail_Messages = 'Messages';
+	ST.Translations.Mail_MessageTranslatedFrom = 'This message has been translated from';
+	ST.Translations.Mail_More = 'More';
+	ST.Translations.Mail_MoreActions = 'More Actions';
+	ST.Translations.Mail_Move = 'Move';
+	ST.Translations.Mail_MoveToFolder = 'Move to Folder';
+	ST.Translations.Mail_MustSelectGrade = 'You must select at least one grade to address to.';
+	ST.Translations.Mail_MustSelectRecipient = 'You must select at least one recipient to address to.';
+	ST.Translations.Mail_MyCounselor = 'My Counselor';
+	ST.Translations.Mail_MyGroups = 'My Groups';
+	ST.Translations.Mail_MyTeachers = 'My Teachers';
+	ST.Translations.Mail_Name = 'Name';
+	ST.Translations.Mail_NewContactGroup = 'New Contact List';
+	ST.Translations.Mail_NewFolder = 'New Folder';
+	ST.Translations.Mail_NewMessage = 'New Message';
+	ST.Translations.Mail_NewMessages = 'New Messages';
+	ST.Translations.Mail_NextMessage = 'Next Message';
+	ST.Translations.Mail_No = 'No';
+	ST.Translations.Mail_NoMessages = 'No Messages';
+	ST.Translations.Mail_NoRecipientsText = 'You must add at least one recipient.';
+	ST.Translations.Mail_NoRecipientsTitle = 'No recipients selected';
+	ST.Translations.Mail_NoRepliesAllowed = 'This message does not allow replies.';
+	ST.Translations.Mail_NoReply = 'No Reply';
+	ST.Translations.Mail_Now = 'Now';
+	ST.Translations.Mail_Ok = 'OK';
+	ST.Translations.Mail_Outbox = 'Outbox';
+	ST.Translations.Mail_OriginalMessage = 'Original Message';
+	ST.Translations.Mail_Parent = 'Parent';
+	ST.Translations.Mail_ParentOf = 'Parent of';
+	ST.Translations.Mail_Parents = 'Parents';
+	ST.Translations.Mail_Period = 'Period';
+	ST.Translations.Mail_PreviousMessage = 'Previous Messages';
+	ST.Translations.Mail_Public = 'Public';
+	ST.Translations.Mail_Read = 'Read';
+	ST.Translations.Mail_ReadCountExplanation = 'The count represents the total unique individuals message was sent to.';
+	ST.Translations.Mail_ReadStatus = 'Read Status';
+	ST.Translations.Mail_Recurrence = 'Recurrence';
+	ST.Translations.Mail_RemoveAllRecipients = 'Remove all recipients';
+	ST.Translations.Mail_RemoveAllRecipientsText = 'Are you sure you want to remove all recipients?';
+	ST.Translations.Mail_RemoveAllRecipientsTitle = 'Remove all recipients';
+	ST.Translations.Mail_RemoveRecipient = 'Remove recipient';
+	ST.Translations.Mail_RepliesForwards = 'Replies/Forwards';
+	ST.Translations.Mail_Reply = 'Reply';
+	ST.Translations.Mail_ReplyAll = 'Reply All';
+	ST.Translations.Mail_ResponseActions = 'Response Actions';
+	ST.Translations.Mail_Room = 'Room';
+	ST.Translations.Mail_Save = 'Save';
+	ST.Translations.Mail_SaveAsDraft = 'Save As Draft';
+	ST.Translations.Mail_School = 'School';
+	ST.Translations.Mail_SectionID = 'Section ID';
+	ST.Translations.Mail_SelectFromList = 'Select from list below';
+	ST.Translations.Mail_Search = 'Search';
+	ST.Translations.Mail_Send = 'Send';
+	ST.Translations.Mail_Sent = 'Sent';
+	ST.Translations.Mail_Settings = 'Settings';
+	ST.Translations.Mail_ShowDeletedMessages = 'Show deleted messages';
+	ST.Translations.Mail_ShowDetails = 'Show Details';
+	ST.Translations.Mail_ShowOriginalText = 'Show Original Message';
+	ST.Translations.Mail_Staff = 'Staff';
+	ST.Translations.Mail_StaffAllGrades = 'Staff (All Grades)';
+	ST.Translations.Mail_StartTime = 'Start Time';
+	ST.Translations.Mail_Status = 'Status';
+	ST.Translations.Mail_Student = 'Student';
+	ST.Translations.Mail_StudentGroups = 'Student Groups';
+	ST.Translations.Mail_Students = 'Students';
+	ST.Translations.Mail_Subject = 'Subject';
+	ST.Translations.Mail_SynergyMailEnabled = 'Synergy Mail Enabled';
+	ST.Translations.Mail_SystemMessages = 'Alerts';
+	ST.Translations.Mail_Term = 'Term';
+	ST.Translations.Mail_Teacher = 'Teacher';
+	ST.Translations.Mail_Teachers = 'Teachers';
+	ST.Translations.Mail_To = 'To';
+	ST.Translations.Mail_Topic = 'Topic';
+	ST.Translations.Mail_Today = 'Today';
+	ST.Translations.Mail_Trash = 'Trash';
+	ST.Translations.Mail_Type = 'Type';
+	ST.Translations.Mail_UnableToAddAttachment = 'Unable to add attachments for the following reasons';
+	ST.Translations.Mail_UnableToCompose = 'Unable to Compose';
+	ST.Translations.Mail_UnableToComposeWhileComposing = 'You must close or send your current email before composing another.';
+	ST.Translations.Mail_UnableToComposeWhileImpersonated = 'You are not allowed to compose an email while impersonated.';
+	ST.Translations.Mail_UnableToDeleteMessageText = 'You cannot delete a folder with messages in it.';
+	ST.Translations.Mail_UnableToDeleteFolderTitle = 'Unable to delete folder';
+	ST.Translations.Mail_Unassigned = 'Unassigned';
+	ST.Translations.Mail_Undelete = 'Undelete';
+	ST.Translations.Mail_Unread = 'Unread';
+	ST.Translations.Mail_UnreadMessages = 'Unread messages';
+	ST.Translations.Mail_UpdateContactLog = 'Add to Contact Log';
+	ST.Translations.Mail_Uploading = 'Uploading';
+	ST.Translations.Mail_UserGroup = 'User Group';
+	ST.Translations.Mail_UserGroups = 'User Groups';
+	ST.Translations.Mail_Users = 'Users';
+	ST.Translations.Mail_ViewMessage = 'View Message';
+	ST.Translations.Mail_WaitingToLoadTranslation = 'Waiting To Load Translation';
+	ST.Translations.Mail_Yes = 'Yes';
+	ST.Translations.Mail_Yesterday = 'Yesterday';
+	ST.Translations.Mail_OpenSurvey = 'Open Survey';
+	
+    </script>
+<script type="text/javascript">
+        window.CKEDITOR_BASEPATH = 'Editor/';
+    </script>
+<base href="/"/>
+<script type="text/javascript">
+        //fixup in page anchors due to baseTag
+        document.addEventListener("click", function (event) {
+            var element = event.target;
+            if (element.tagName.toLowerCase() == "a" &&
+                element.getAttribute("href") &&
+                element.getAttribute("href").indexOf("#") === 0) {
+                element.href = location.href + element.getAttribute("href");
+                console.log('href-intercept: ' + element.href);
+            }
+        });
+    </script>
+<script src="https://js.live.net/v5.0/OneDrive.js" type="text/javascript"></script>
+<script id="ctl00_ctl00_Loader" type="text/javascript">window.LoadRemoteScript = function (resourceClientID, url) {
+var resourceSelector = '[id*=' + resourceClientID + ']';
+if ($(resourceSelector).length == 0) {
+var Script = document.createElement('script');
+Script.src = url;
+Script.async = false;
+Script.defer = true;
+Script.id = resourceClientID;
+document.head.appendChild(Script);
+};
+};
+window.LoadLocalStyleSheet = function (resourceClientID, text) {
+var resourceSelector = '[id*=' + resourceClientID + ']';
+if ($(resourceSelector).length == 0) {
+var Script = document.createElement('script');
+Script.type='text/css';
+Script.id = resourceClientID;
+Script.innerHTML = text;
+document.head.appendChild(Script);
+};
+};
+window.LoadRemoteStyleSheet = function (resourceClientID, url) {
+var resourceSelector = '[id*=' + resourceClientID + ']';
+if ($(resourceSelector).length == 0) {
+if (document.createStyleSheet) {
+document.createStyleSheet(url);
+} else {
+$('<link>')
+.appendTo('head')
+.attr({type : 'text/css', rel : 'stylesheet'})
+.attr({id : resourceClientID})
+.attr('href', url);
+}
+};
+};
+</script><script id="ctl00_ctl00_stwebcommon_scripts_knockout-3_5_1_js" src="/stwebcommon/scripts/knockout-3.5.1.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/Schemes/font-awesome.min.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_font-awesome_min_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP2/PXP2_Global.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_Global_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP_Form.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP_Form_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_js_ST_es6-promise_auto_min_js" src="/js/ST/es6-promise.auto.min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_json2_min_js" src="/js/PXP/json2.min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_gbapp_pvue_js" src="/resources/GBResources/gbapp_pvue.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_jquery_min_js" src="/resources/GBResources/jquery_min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/resources/GBResources/jquery_ui_min.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_GBResources_jquery_ui_min_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_GBResources_jquery_ui_min_js" src="/resources/GBResources/jquery_ui_min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/resources/GBResources/pnotify_min.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_GBResources_pnotify_min_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_GBResources_pnotify_min_js" src="/resources/GBResources/pnotify_min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_knockout_latest_js" src="/resources/GBResources/knockout_latest.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP_jquery_ui_touch-punch_min_js" src="/js/PXP/PXP_jquery.ui.touch-punch.min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXPUtility_js" src="/js/PXP/PXPUtility.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/resources/GBResources/bootstrap_3_min.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_GBResources_bootstrap_3_min_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_GBResources_bootstrap_3_min_js" src="/resources/GBResources/bootstrap_3_min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/Schemes/CKEDITOR5/ckeditor-content.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_CKEDITOR5_ckeditor-content_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_stwebcommon_scripts_ko_components_js" src="/stwebcommon/scripts/ko.components.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/Schemes/PXP_Home.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP_Home_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP2/PXP2_Home.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_Home_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP_Color.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP_Color_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP2/PXP2_Widget.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_Widget_css" rel="stylesheet" type="text/css"/><link href="/Schemes/GB/IAPlugins.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_GB_IAPlugins_css" rel="stylesheet" type="text/css"/><link href="/Schemes/OENNotice.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_OENNotice_css" rel="stylesheet" type="text/css"/><link href="/resources/GBResources/plugins/DevExpress/Content/dx.common.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_resources_GBResources_plugins_DevExpress_Content_dx_common_css" rel="stylesheet" type="text/css"/><link href="/resources/GBResources/plugins/DevExpress/Content/dx.light.compact.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_resources_GBResources_plugins_DevExpress_Content_dx_light_compact_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP2/PXP2_DXOverride.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_DXOverride_css" rel="stylesheet" type="text/css"/><link href="/Schemes/PXP2/PXP2_SM.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_SM_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_js_ST_moment_min_js" src="/js/ST/moment.min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_knockout_mapping_latest_js" src="/resources/GBResources/knockout_mapping_latest.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXPPlugins_js" src="/js/PXP/PXPPlugins.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP_SMBundle_js" src="/js/PXP/PXP_SMBundle.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_resources_GBResources_plugins_DevExpress_Scripts_dx_all_js" src="/resources/GBResources/plugins/DevExpress/Scripts/dx.all.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_ST_ICanHaz-custom_min_js" src="/js/ST/ICanHaz-custom.min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP_Home_js" src="/js/PXP/PXP_Home.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP2_Home_js" src="/js/PXP/PXP2_Home.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP2_Widget_js" src="/js/PXP/PXP2_Widget.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_PXP_PXP2_KOCounselor_js" src="/js/PXP/PXP2_KOCounselor.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_Editor_ckeditor_js" src="/Editor/ckeditor.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_js_CKEDITOR5_ckeditor_js" src="/js/CKEDITOR5/ckeditor.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_StreamsNotifications_js" src="/resources/GBResources/StreamsNotifications.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/Schemes/PXP2/PXP2_Gradebook.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_Gradebook_css" rel="stylesheet" type="text/css"/><script id="ctl00_ctl00_js_PXP_PXP2_Gradebook_js" src="/js/PXP/PXP2_Gradebook.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_JS_PXP_GoogleDrive_js" src="/JS/PXP/GoogleDrive.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_JS_PXP_OneDrive_js" src="/JS/PXP/OneDrive.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_JS_PXP_PXP2_DropBox_js" src="/JS/PXP/PXP2_DropBox.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><script id="ctl00_ctl00_GBResources_jquery_ddslick_min_js" src="/resources/GBResources/jquery_ddslick_min.js?2023-05-24T22%3a16%3a09.0000000" type="text/javascript"></script><link href="/Schemes/PXP2/PXP2_LanguageBar.css?2023-05-24T22%3a16%3a09.0000000" id="ctl00_ctl00_Schemes_PXP2_PXP2_LanguageBar_css" rel="stylesheet" type="text/css"/></head>
+<body class="browser-Unknown bver-0_0" id="ctl00_ctl00_MainBody">
+<div class="DebugInfo" id="ctl00_ctl00_DebugInfo">01</div>
+<div aria-label="Accessiblity Options" class="sr-only">
+<a href="accessibility.html" target="_blank">Synergy Accessibility Tips</a>
+<a data-action="ToggleAccessibleMode" href="#" id="AccessButton" role="button">Accessibility Mode</a>
+</div>
+<header class="mobile-header" id="ctl00_ctl00_MobileHeader"></header>
+<div class="PXPHeaderLogo">
+<img alt="District Logo" height="70" src="Photos/8D/8D749524-419B-4CB2-BEAE-134B947A853D_PXPHeaderLogo.PNG?637339801200000000" width="240"/>
+</div>
+<div class="container">
+<div id="USER_ERROR"></div>
+<header class="pxp-main-header" id="ctl00_ctl00_MainContent_PXPHeader">
+<div aria-label="Student Selector" class="pxp-student-header hide-for-print" id="ctl00_ctl00_MainContent_StudentSelector" role="region">
+<div class="current" data-toggle="dropdown">
+<div class="student-info" data-agu="0">
+<div class="student-photo">
+<img alt="Student Photo" height="50" src="Photos/78/7847B270-8790-4ED5-A7EF-C6E28873542E_Photo.PNG" width="40"/>
+<span class="student-id">ID: 147098</span>
+</div>
+<div class="student-details">
+<h2 style="white-space: nowrap">
+<span class="student-name">Erol</span>
+</h2>
+<div class="school">Montgomery Blair High</div>
+<div class="phone">(240-740-7200)</div>
+</div>
+</div>
+</div>
+</div>
+<div></div>
+<div aria-label="System Links" class="pxp-navbar-container hide-for-print" role="region">
+<ul class="pxp-navbar">
+<li id="ctl00_ctl00_MainContent_tabMyAccount"><a href="PXP2_MyAccount.aspx?AGU=0">My Account</a></li>
+<li id="ctl00_ctl00_MainContent_tabHelp"><a href="PXP2_Help.aspx?AGU=0">Help</a></li>
+<li><a href="PXP2_Login_Student.aspx?Logout=1">Logout</a></li>
+</ul>
+</div>
+<div aria-label="District announcements" class="pull-right hide-for-print greeting-container" role="region" style="position:relative">
+<span id="DistrictName">
+            
+            Montgomery County Public Schools
+        </span>
+<span id="Greeting">Good afternoon, Erol Kalayoglu, 6/2/2023</span>
+</div>
+</header>
+<div class="tab-content">
+<div class="pxp-container">
+<div aria-label="Menu" class="hide-for-print" id="mainnav" role="navigation">
+<div class="list-group pxp-left-nav" role="list"></div>
+</div>
+<div id="maincontent">
+<form action="./PXP2_Gradebook.aspx" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="lGtlvA9et1l+UQ30uYERTT3Q5Rk8qc8L9OpDabzLwnf2ZqTK7AX8vm7hVh2+xfav4JN2oM/esx6Is00ZTEpfxll4pVay3aLtcR18ZQUYkX8="/>
+<script type="text/javascript">
+//<![CDATA[
+window.LoadRemoteScript('stwebcommon_scripts_knockout-3_5_1_js', '/stwebcommon/scripts/knockout-3.5.1.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_font-awesome_min_css', '/Schemes/font-awesome.min.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_Global_css', '/Schemes/PXP2/PXP2_Global.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP_Form_css', '/Schemes/PXP_Form.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_ST_es6-promise_auto_min_js', '/js/ST/es6-promise.auto.min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_json2_min_js', '/js/PXP/json2.min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_gbapp_pvue_js', '/resources/GBResources/gbapp_pvue.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_jquery_min_js', '/resources/GBResources/jquery_min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('GBResources_jquery_ui_min_css', '/resources/GBResources/jquery_ui_min.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_jquery_ui_min_js', '/resources/GBResources/jquery_ui_min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('GBResources_pnotify_min_css', '/resources/GBResources/pnotify_min.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_pnotify_min_js', '/resources/GBResources/pnotify_min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_knockout_latest_js', '/resources/GBResources/knockout_latest.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP_jquery_ui_touch-punch_min_js', '/js/PXP/PXP_jquery.ui.touch-punch.min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXPUtility_js', '/js/PXP/PXPUtility.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('GBResources_bootstrap_3_min_css', '/resources/GBResources/bootstrap_3_min.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_bootstrap_3_min_js', '/resources/GBResources/bootstrap_3_min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_CKEDITOR5_ckeditor-content_css', '/Schemes/CKEDITOR5/ckeditor-content.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('stwebcommon_scripts_ko_components_js', '/stwebcommon/scripts/ko.components.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP_Home_css', '/Schemes/PXP_Home.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_Home_css', '/Schemes/PXP2/PXP2_Home.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP_Color_css', '/Schemes/PXP_Color.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_Widget_css', '/Schemes/PXP2/PXP2_Widget.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_GB_IAPlugins_css', '/Schemes/GB/IAPlugins.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_OENNotice_css', '/Schemes/OENNotice.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('resources_GBResources_plugins_DevExpress_Content_dx_common_css', '/resources/GBResources/plugins/DevExpress/Content/dx.common.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('resources_GBResources_plugins_DevExpress_Content_dx_light_compact_css', '/resources/GBResources/plugins/DevExpress/Content/dx.light.compact.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_DXOverride_css', '/Schemes/PXP2/PXP2_DXOverride.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_SM_css', '/Schemes/PXP2/PXP2_SM.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_ST_moment_min_js', '/js/ST/moment.min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_knockout_mapping_latest_js', '/resources/GBResources/knockout_mapping_latest.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXPPlugins_js', '/js/PXP/PXPPlugins.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP_SMBundle_js', '/js/PXP/PXP_SMBundle.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('resources_GBResources_plugins_DevExpress_Scripts_dx_all_js', '/resources/GBResources/plugins/DevExpress/Scripts/dx.all.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_ST_ICanHaz-custom_min_js', '/js/ST/ICanHaz-custom.min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP_Home_js', '/js/PXP/PXP_Home.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP2_Home_js', '/js/PXP/PXP2_Home.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP2_Widget_js', '/js/PXP/PXP2_Widget.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP2_KOCounselor_js', '/js/PXP/PXP2_KOCounselor.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('Editor_ckeditor_js', '/Editor/ckeditor.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_CKEDITOR5_ckeditor_js', '/js/CKEDITOR5/ckeditor.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_StreamsNotifications_js', '/resources/GBResources/StreamsNotifications.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_Gradebook_css', '/Schemes/PXP2/PXP2_Gradebook.css?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('js_PXP_PXP2_Gradebook_js', '/js/PXP/PXP2_Gradebook.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('JS_PXP_GoogleDrive_js', '/JS/PXP/GoogleDrive.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('JS_PXP_OneDrive_js', '/JS/PXP/OneDrive.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('JS_PXP_PXP2_DropBox_js', '/JS/PXP/PXP2_DropBox.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteScript('GBResources_jquery_ddslick_min_js', '/resources/GBResources/jquery_ddslick_min.js?2023-05-24T22%3a16%3a09.0000000');
+window.LoadRemoteStyleSheet('Schemes_PXP2_PXP2_LanguageBar_css', '/Schemes/PXP2/PXP2_LanguageBar.css?2023-05-24T22%3a16%3a09.0000000');
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvvPlii9ydB8-AbwuNMsvZMdxxGiD8tGj3YF19VKWT7g1LjkSCd3fFjV-qzIsIt9tdofMoVPtiZZ4O_d_toT5irTAelh65EDauCT9TgQV-0Zr6iR-s4DfTwF1OZ4gbf3CteWIjDsijTBjPerCr7sI_1Q1&amp;t=ffffffffaa493ab8" type="text/javascript"></script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="165FEB4B"/>
+<div aria-hidden="true" style="position:absolute; right:100%;display:inline-block;opacity:0">
+<input name="fake-username" tabindex="-1"/>
+<input name="fake-password" tabindex="-1" type="password"/>
+</div>
+<div id="MainDiv" style="position: relative;">
+<div>
+<h1 class="hide-for-screen no-border">Erol M. Kalayoglu</h1>
+<div class="student-grade-description hide-for-screen">Grade 09</div>
+<div class="student-id hide-for-screen">ID: 147098</div>
+<div class="breadcrumb-bottom hide-for-screen fullwidth"></div>
+<div id="BindingRoot">
+<h1 class="no-border uppercase" id="GradebookHeader">Grade Book</h1>
+<div class="course-content-header-link" data-action="GB.LoadControl" data-bind="visible: isViewCourseContentEleVisible" data-focus='{"LoadParams":{"ControlName":"Gradebook_RichContentClassDetails","HideHeader":false},"FocusArgs":{"viewName":"courseContent","studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336598,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":9117,"assignmentID":-1,"standardIdentifier":"","AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":""}}' id="ctl00_ctl00_MainContent_PXPMainContent_CourseContentHeaderLink">View Course Content</div>
+<div class="breadcrumb-header" data-bind="dxToolbar: toolbarConfig"></div>
+</div>
+<div class="breadcrumb-bottom"></div>
+</div>
+<div id="mainContentArea">
+<script type="text/javascript">CURRENT_WEB_PORTAL='StudentVUE';</script><script type="text/javascript">applicationRoot='/';</script>
+<div class="component-loader-container" data-bind="attr: { 'data-bound': 'true' }">
+<pxp-gradebook-what-if params="config:$root.config,isAdmin: $root.isAdmin"></pxp-gradebook-what-if>
+<!-- ko if: $data.componentInjector -->
+<div data-bind="foreach: $data.componentInjector" id="component-injector-container">
+<!-- ko component: $data -->
+<!-- /ko -->
+</div>
+<!-- /ko -->
+</div>
+<script>
+    window.security = {"googleAccessToken":"","google_API_KEY":"","google_CLIENT_ID":"","microsoft_CLIENT_ID":"","_metaData":{"EGB_STU_CONF_MEETING":{"conference_gu":{"labelName":"Conference_Gu","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Conference_Gu","extraData":{},"defaultValue":""},"done":{"labelName":"Done","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Dones","extraData":{},"defaultValue":""},"id":{"labelName":"Id","toolTip":"","maxLength":10,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":true,"labelName_plural":"Ids","extraData":{},"defaultValue":""},"location":{"labelName":"Location","toolTip":"","maxLength":100,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Locations","extraData":{},"defaultValue":""},"meeting_type":{"labelName":"Meeting_Type","toolTip":"","maxLength":50,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Meeting_Type","extraData":{},"defaultValue":""},"note":{"labelName":"Note","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Notes","extraData":{},"defaultValue":""},"private_note":{"labelName":"Private_Note","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Private_Note","extraData":{},"defaultValue":""},"schedule_by_gu":{"labelName":"Schedule_By_Gu","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Schedule_By_Gu","extraData":{},"defaultValue":""},"schedule_note":{"labelName":"Schedule_Note","toolTip":"","maxLength":4000,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Schedule_Note","extraData":{},"defaultValue":""},"stu_conf_dates_id":{"labelName":"Stu_Conf_Dates_Id","toolTip":"","maxLength":10,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":true,"labelName_plural":"Stu_Conf_Dates_Id","extraData":{},"defaultValue":""},"stu_conf_id":{"labelName":"Stu_Conf_Id","toolTip":"","maxLength":10,"isRequired":true,"allowEditing":true,"isVisible":true,"isNumeric":true,"labelName_plural":"Stu_Conf_Id","extraData":{},"defaultValue":""},"student_school_year_gu":{"labelName":"Student_School_Year_Gu","toolTip":"","maxLength":-1,"isRequired":true,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Student_School_Year_Gu","extraData":{},"defaultValue":""},"translator_language":{"labelName":"Translator_Language","toolTip":"","maxLength":50,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Translator_Language","extraData":{},"defaultValue":""},"translator_requested":{"labelName":"Translator_Requested","toolTip":"","maxLength":-1,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Translator_Requested","extraData":{},"defaultValue":""},"virtual_link":{"labelName":"Virtual_Link","toolTip":"","maxLength":4000,"isRequired":false,"allowEditing":true,"isVisible":true,"isNumeric":false,"labelName_plural":"Virtual_Link","extraData":{},"defaultValue":""}}},"OriginalLoginSecurity":{"UserGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","UserSettings":{"DisciplineSecurity":0,"ContactListSecurity":0,"ConferenceSecurity":0,"DiscOrgSecurity":0,"StuEnrOrgSecurity":0,"StuEnrYearSecurity":0,"HealthPrivateDocumentSecurity":0,"HealthCommentSecurity":0,"ModifyHealthData":1,"AxpUser":false,"AllowUpdCreditMarks":false,"HxpUser":false,"SevueUser":false,"CounselVUEUser":false,"KioskVUEUser":false,"MobileAppsAllowSaveUsername":false,"MobileAppsAllowSavePassword":false,"AllowUserToOverrideMaxClassSize":null,"GBSDistrictAdmin":false,"GBSPrincipal":false,"GBSTVueUser":false,"GBSSpecialist":false,"GBSLessonVueUser":false,"GBSAssessmentUser":false,"GBSMtssUser":false,"ASMTDataAccess":{"Id":null,"Priority":0,"Name":"Default"},"ASMTBankFeedbackOptions":false,"GBShowAllStudentsForFocusedSchoolPivotReports":false,"GBSpecialist":false,"GBReportCardMarksEditing":false,"GBThirdPartyAccessReadOnly":false,"GBAdditionalAccessCurrentYear":{"Id":null,"Priority":0,"Name":"Default"},"GBAdditionalAccessPreviousYears":{"Id":null,"Priority":0,"Name":"Default"},"TVUEAdminAccess":{"Id":null,"Priority":0,"Name":"Default"},"LVCanEditElements":false,"DisplayCurrentMonthFirst":false,"GradeBookSecurity":0,"GradeBookEditRights":1,"AllowPathwayOverride":null},"SecurityLevelPrincipal":false,"SecurityLevelSpecialist":false,"SecurityLevelDistrictAdmin":false,"SecurityLevelTeacherVUEUser":false,"SecurityLevelLessonVUE":false,"SecurityLevelAssessment":false,"SecurityLevelMTSS":false,"RoleIds":[],"isTVUEAdmin":false,"SynergyUserGradeBookEditRights":1,"TVUEAdminAccess":{"Id":null,"Priority":0,"Name":"Default"},"ASMTBankFeedbackOptions":false,"ASMTDataAccess":{"Id":null,"Priority":0,"Name":"Default"},"GBShowAllStudentsForFocusedPivotReport":false,"GBAdditionalAccessCurrentYear":{"Id":null,"Priority":0,"Name":"Default"},"GBAdditionalAccessPreviousYears":{"Id":null,"Priority":0,"Name":"Default"},"GBReportCardMarksEditing":false,"GBThirdPartyAccessReadOnly":false,"LVCanEditElements":false},"CurrentUserSecurity":{"UserGU":"02d0de73-ce33-4dbd-960c-e8416bde985b","UserSettings":{"DisciplineSecurity":2,"ContactListSecurity":0,"ConferenceSecurity":2,"DiscOrgSecurity":1,"StuEnrOrgSecurity":0,"StuEnrYearSecurity":0,"HealthPrivateDocumentSecurity":1,"HealthCommentSecurity":1,"ModifyHealthData":1,"AxpUser":false,"AllowUpdCreditMarks":false,"HxpUser":false,"SevueUser":false,"CounselVUEUser":false,"KioskVUEUser":false,"MobileAppsAllowSaveUsername":true,"MobileAppsAllowSavePassword":true,"AllowUserToOverrideMaxClassSize":null,"GBSDistrictAdmin":false,"GBSPrincipal":false,"GBSTVueUser":false,"GBSSpecialist":false,"GBSLessonVueUser":false,"GBSAssessmentUser":false,"GBSMtssUser":false,"ASMTDataAccess":{"Id":null,"Priority":0,"Name":"Default"},"ASMTBankFeedbackOptions":false,"GBShowAllStudentsForFocusedSchoolPivotReports":false,"GBSpecialist":false,"GBReportCardMarksEditing":false,"GBThirdPartyAccessReadOnly":false,"GBAdditionalAccessCurrentYear":{"Id":null,"Priority":0,"Name":"Default"},"GBAdditionalAccessPreviousYears":{"Id":null,"Priority":0,"Name":"Default"},"TVUEAdminAccess":{"Id":null,"Priority":0,"Name":"Default"},"LVCanEditElements":false,"DisplayCurrentMonthFirst":false,"GradeBookSecurity":0,"GradeBookEditRights":1,"AllowPathwayOverride":null},"SecurityLevelPrincipal":false,"SecurityLevelSpecialist":false,"SecurityLevelDistrictAdmin":false,"SecurityLevelTeacherVUEUser":false,"SecurityLevelLessonVUE":false,"SecurityLevelAssessment":false,"SecurityLevelMTSS":false,"RoleIds":[],"isTVUEAdmin":false,"SynergyUserGradeBookEditRights":1,"TVUEAdminAccess":{"Id":null,"Priority":0,"Name":"Default"},"ASMTBankFeedbackOptions":false,"ASMTDataAccess":{"Id":null,"Priority":0,"Name":"Default"},"GBShowAllStudentsForFocusedPivotReport":false,"GBAdditionalAccessCurrentYear":{"Id":null,"Priority":0,"Name":"Default"},"GBAdditionalAccessPreviousYears":{"Id":null,"Priority":0,"Name":"Default"},"GBReportCardMarksEditing":false,"GBThirdPartyAccessReadOnly":false,"LVCanEditElements":false},"application":{"isCurriculumModuleEnabled":true,"isAnalyticsModuleEnabled":false,"isStreamsEnabled":false,"isAssessmentModuleEnabled":false,"isLMSIntegrationEnabled":true,"isRTIModuleEnabled":true},"focus":{"gradingPeriodId":5282,"gradeBookId":0,"studentId":240863,"FirstName":null,"LastName":null,"SchoolName":"Montgomery Blair High","ClassName":"Castro, S  Hon Biology B(1)","CurrentStudentName":null,"isSpecialist":false,"isTeacher":false,"isPrincipal":false,"isReadOnly":true,"readOnlyReason":"You are currently impersonating another user. This gives you read only access."},"requestAppToken":"StudentVUE","pad":{"screenCaptureButtonVisible":false,"useNewPTCBeta":false}};
+
+    gbapp.whenAvailable("window.COMPONENT_LOADER", function() {
+        // all loaders should not display the component-injector because that will double up injected components. remove it from the DOM before binding so there are no subscriptions.
+        $(".component-loader-container #component-injector-container:gt(0)").remove();
+
+        //we are loading a second component loader on the page. the only thing we need to do is apply bindings to the new area.
+        if ($(".component-loader-container[data-bound!='true']").length > 0) {
+            ko.applyBindings(document.rootViewModel, $(".component-loader-container[data-bound!='true']").get(0));
+        }
+    });
+
+</script>
+<script data-main="/txpapp/scripts.require.config.js?2023-05-24T22%3a16%3a09.0000000" src="/txpapp/scripts.require.js?2023-05-24T22%3a16%3a09.0000000"></script>
+<div id="gradebook-content">
+<div class="pxp-panel" id="gb-classes">
+<div class="update-panel" data-orgyear-id="B300E9DA-3FF5-40CA-B701-6FF28ED8A31B" data-period-group="Regular" data-school-id="199" id="ctl00_ctl00_MainContent_PXPMainContent_repSchoolClasses_ctl00_ctl00_SchoolClassesPanel">
+<h2 class="flexbox horizontal flex-space-between">
+<span class="title">Classes for Montgomery Blair High</span>
+<div class="term-selector pull-right" id="ctl00_ctl00_MainContent_PXPMainContent_repSchoolClasses_ctl00_ctl00_TermSelector_TermSelector">
+<div class="btn-group btn-group-xs dropdown">
+<button class="btn btn-link" data-term-name="2CB87D66-FCA8-413D-A217-3FD941233C76" data-toggle="dropdown" type="button">
+<div class="current breadcrumb-term">
+                MP4
+            </div>
+<i class="glyphicon glyphicon-chevron-down"></i>
+</button>
+<ul class="dropdown-menu" role="menu">
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="8EE59F0A-3964-46F9-8A47-8804CAB6EB0E" href="#" role="menuitem">
+                    MP1 Interim
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="45088F55-63F9-4B40-A586-F436CBD9C798" href="#" role="menuitem">
+                    MP1
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="3A8A356D-4845-4CA7-B65B-CCBE805F9346" href="#" role="menuitem">
+                    MP2 Interim
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="E15C8047-82BB-47CF-B8FE-3C08397AD2DA" href="#" role="menuitem">
+                    MP2
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="0C92889E-7ED3-4F72-B144-CB824B06B299" href="#" role="menuitem">
+                    MP3 Interim
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="A612FD07-0074-44D2-A46D-B97B74942D58" href="#" role="menuitem">
+                    MP3
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="9BC80404-3F1E-4443-AB76-66631B66B5BF" href="#" role="menuitem">
+                    MP4 Interim
+                </a>
+</li>
+<li>
+<a data-action="GB.SetTerm" data-period-group="Regular" data-period-id="2CB87D66-FCA8-413D-A217-3FD941233C76" href="#" role="menuitem">
+                    MP4
+                </a>
+</li>
+</ul>
+</div>
+</div>
+</h2>
+<div class="table data-table pres-table">
+<div class="gb-class-table-header">
+<div>
+<div class="col-sm" scope="col"><span class="sr-only">Hide or Show More Information</span></div>
+<div class="col-sm" scope="col">Photo</div>
+<div class="col-sm" scope="col">Period</div>
+<div class="col-sm" scope="col">Class</div>
+<div class="col-sm" scope="col"><span class="sr-only">Teacher</span></div>
+<div class="col-sm" scope="col">Room</div>
+<div class="col-sm" scope="col">Score</div>
+<div class="col-sm" scope="col">Links</div>
+</div>
+</div>
+<div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="336598">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336598,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">1: Hon Biology B</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Samantha Castro</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "02d0de73-ce33-4dbd-960c-e8416bde985b"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Hon Biology B, period 1", messageText: "" })'>Samantha Castro <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 332</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="336598" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336598,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">91.88%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>3 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":9117,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+This is the data I am returning from my flask app.py:
+
+class_data = {
+                "class_title": class_title,
+                "teacher": teacher,
+                "room_number": room_number,
+                "letter_grade": letter_grade,
+                "percentage_grade": percentage_grade,
+                "missing_assignments": missing_assignments,
+                'school':school
+            }
+In my js files (i have already retrieved the data and set it to GradesData) I want to set a const variable to school. Show me how.
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="337065">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337065,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">2: Hon Spanish 4B</button>
+</div>
+Correct the function if need be, and show my how I can use that to only show a div section in my html if that function returns false.
+<div class="">
+<div class="teacher hide-for-screen">Sabrina Kalin Martinez</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "1763db0b-a1c7-4b88-8521-f67aa438f900"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Hon Spanish 4B, period 2", messageText: "" })'>Sabrina Kalin Martinez <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: P11</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="337065" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337065,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">E</span>
+<span class="score">29.50%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>1 Missing Assignment</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":2868,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="337272">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337272,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">3: Foundations of Engineering and Technology B</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Michael Ashley</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "a5aa7860-205d-4db7-8e6a-b7eb1a1c900a"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Foundations of Engineering and Technology B, period 3", messageText: "" })'>Michael Ashley <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 330</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="337272" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337272,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">98.24%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":387370,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="336627">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336627,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">4: Hon US History B</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Marc Grossman</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "05913d9b-050b-48fc-8a0b-ce5cee9e20e4"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Hon US History B, period 4", messageText: "" })'>Marc Grossman <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 256</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="336627" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336627,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">92.74%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":387356,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="337324">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337324,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">6: Hon English 9B</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Sean Rada</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "ad53ee52-cf9b-4c5d-ae1e-1172d84ed9c3"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Hon English 9B, period 6", messageText: "" })'>Sean Rada <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 162 - CAP Suite</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="337324" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337324,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">B</span>
+<span class="score">88.55%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":496902,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="337037">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337037,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">7: CAP Oral Interp</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Tami Jeral</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "1a9ee52c-9623-416f-896f-8cfa821068bb"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course CAP Oral Interp, period 7", messageText: "" })'>Tami Jeral <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 006 - Drama</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="337037" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337037,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">90.29%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":6858,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="337201">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337201,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">8: CAP CRT Script Writing</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Paris Bustillos</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "43cf0aa9-c9b0-47ef-8001-881070e339aa"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course CAP CRT Script Writing, period 8", messageText: "" })'>Paris Bustillos <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 100 - TV Studio</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="337201" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":337201,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">100.00%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":9929,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+<div class="row gb-class-header gb-class-row flexbox horizontal" data-guid="336769">
+<div scope="row">
+<button class="btn btn-link course-title" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336769,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">9: Hon Algebra 2B</button>
+</div>
+<div class="">
+<div class="teacher hide-for-screen">Kim Palmer</div>
+<span class="teacher hide-for-print" role="presentation">
+<span style="white-space:nowrap;"><a href='javascript:SMApp.composeEx({ to: [{RecipientList: 0, GU: "73e6cac1-ba99-40a3-bb84-e126a2ffb5e4"}], subject: "RE: EROL M. KALAYOGLU, Gradebook for Course Hon Algebra 2B, period 9", messageText: "" })'>Kim Palmer <span aria-label="Send Message" class="fa fa-envelope"></span></a></span>
+</span>
+<div class="teacher-room hide-for-print">Room: 233</div>
+</div>
+<div> </div>
+</div>
+<div class="row gb-class-row" data-guid="336769" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30">
+<div class="col-sm-8 flexbox horizontal flex-wrap">
+<div>
+<div class="hide-for-print inline">
+<button class="btn btn-xs btn-link" data-action="GB.ShowMoreClassInfo" type="button">
+<span class="sr-only">Toggle More Information</span>
+<i class="glyphicon glyphicon-chevron-right"></i>
+</button>
+</div>
+<div class="inline" scope="row">
+<button class="btn btn-link course-markperiod" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassDetails","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":336769,"markPeriodGU":"F942C618-D4A5-4705-B203-0FFB82589F30","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":-1,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' style="padding-bottom: 0px" type="button">MP4</button>
+</div>
+</div>
+<div>
+<span class="mark">A</span>
+<span class="score">96.16%</span>
+</div>
+<div class="class-item-lessemphasis hide-for-print">
+<div>0 Missing Assignments</div>
+<div><a class="" data-action="GB.LoadControl" data-focus='{"LoadParams":{"ControlName":"Gradebook_ClassResources","HideHeader":false},"FocusArgs":{"viewName":null,"studentGU":"7847B270-8790-4ED5-A7EF-C6E28873542E","schoolID":199,"classID":-1,"markPeriodGU":"","gradePeriodGU":"2CB87D66-FCA8-413D-A217-3FD941233C76","subjectID":-1,"teacherID":543173,"assignmentID":-1,"standardIdentifier":null,"AGU":"0","OrgYearGU":"B300E9DA-3FF5-40CA-B701-6FF28ED8A31B","gradingPeriodGroup":null}}' href="#"></a></div>
+<div><a class="hide" href="">Class Page</a></div>
+<div class="google-link hide-for-print">
+<a class="hide" target="_blank"><span class="g-logo"></span>Classroom</a>
+</div>
+</div>
+</div>
+<div class="col-sm-4 hide-for-print">
+</div>
+</div>
+</div>
+</div>
+<div class="pxp-panel">
+<h2>Class Details for Montgomery Blair High</h2>
+<div class="table table-striped data-table">
+<div>
+<div>
+<div scope="col">Class</div>
+<div scope="col">Student Category Breakdown</div>
+<div scope="col">Class Summary</div>
+</div>
+</div>
+<div>
+<div class="gb-class-row" data-guid="336598" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Hon Biology B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">30</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">2</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="336627" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Hon US History B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">7</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="336769" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Hon Algebra 2B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">11</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="337037" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">CAP Oral Interp</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">15</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="337065" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Hon Spanish 4B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">7</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="337201" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">CAP CRT Script Writing</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">4</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="337272" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Foundations of Engineering and Technology B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">20</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+<div class="gb-class-row" data-guid="337324" data-mark-gu="f942c618-d4a5-4705-b203-0ffb82589f30" data-period="2CB87D66-FCA8-413D-A217-3FD941233C76">
+<div scope="row">Hon English 9B</div>
+<div>
+</div>
+<div class="class-summary-info">
+<ul>
+<li>
+<span class="name">Total Assignments</span>
+<strong class="value">6</strong>
+</li>
+<li>
+<span class="name">Upcoming Assignments</span>
+<strong class="value">0</strong>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hide-for-print" id="gb-status">
+</div>
+</div>
+</div>
+<script id="GB.ClassSummary.MissingPopover" type="text/html">
+        <table role="presentation">
+            <tbody>
+                {{#missing}}
+        <tr>
+            <td>{{title}}</td>
+            <td>{{due_date}}</td>
+        </tr>
+                {{/missing}}
+            </tbody>
+        </table>
+    </script>
+<script id="GB.ClassSummaryRow" type="text/html">
+        <div data-guid="{{courseID}}" class="details gb-class-row">
+            <div class="flexbox horizontal flex-space-between flex-wrap">
+                {{#hasCategories}}
+                <div>
+                    <h3>Student Performance</h3>
+                    <canvas class="student-categories"></canvas>
+                </div>
+                {{/hasCategories}}
+                {{^hasCategories}}
+                <div>
+                    <table class="table info-table">
+                        <tbody>
+                            {{#summaryInfo}}
+                            <tr class="{{rowClass}}">
+                                <th scope="row">{{name}}:</th>
+                                <td>{{value}}</td>
+                            </tr>
+                            {{/summaryInfo}}
+                        </tbody>
+                    </table>
+                </div>
+                {{/hasCategories}}
+                {{#showClassGrades}}
+                <div style="text-align: center; width: 50%">
+                    <h3 class="mark-counts">Class Grades</h3>
+                    <canvas class="mark-counts"></canvas>
+                </div>
+                {{/showClassGrades}}
+                <div>&nbsp;</div>
+            </div>
+        </div>
+    </script>
+<script id="GB.MessagesTable" type="text/html">
+        <table class="table pres-table">
+            <tbody>
+                {{#items}}
+    <tr data-guid="{{courseID}}">
+        <td style="vertical-align: middle">
+            <span class="icon">{{{icon}}}</span>
+            <b>{{type}}:</b>
+        </td>
+        <td>
+            <span class="course">{{courseTitle}}</span>
+            <span class="title">{{{title}}}</span>
+        </td>
+        <td style="vertical-align: middle">
+            <span style="color: #888888">Available:</span>
+            <span class="available">{{available}}</span>
+        </td>
+    </tr>
+                {{/items}}
+            </tbody>
+        </table>
+    </script>
+<div class="DFHiden" id="df" name="df">
+<div class="MB">
+<table cellpadding="0" cellspacing="0" style="height: 100%" width="100%">
+<tr style="background-color: #99CCFF">
+<td>
+<img alt="tch comment" src="Images/PXP/TchComment.gif"/>
+</td>
+<td width="100%">
+<div class="MBHead">
+                            Teacher Comment
+                        </div>
+</td>
+<td>
+<div class="MBHead">
+<input class="BtnClose" id="btnCloseD" name="btnCloseD" onclick="HideDetail()" style="width: 80px;" type="button" value="Close"/>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" id="tdDetail" name="tdDetail"></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="Pop_Hide" id="OVERLAY" name="OVERLAY">
+</div>
+<div class="spinnerModal"></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script id="PXP.Switch" type="text/html">
+    <span class="switch">
+        <span class="on">{{onText}}</span>
+        <span class="toggle"></span>
+        <span class="off">{{offText}}</span>
+    </span>
+</script>
+<script id="PXP.SummaryChart.popover" type="text/html">
+    <table><tbody>
+        {{#items}}
+        <tr>
+            <th>{{name}}:</th><td>{{value}}</td>
+        </tr>
+        {{/items}}
+    </tbody></table>
+</script>
+<script id="PXP.SummaryChart" type="text/html">
+    <div class="pxp-summary-chart">
+        {{#items}}
+        <div class="row" data-action="{{detailAction}}" data-guid="{{guid}}" data-heading="{{heading}}">
+            <div class="title col-md-6 col-xs-6">{{title}}</div>
+            <div class="bar-container col-md-6 col-xs-6" data-toggle="popover" data-content="{{popoverContent}}" data-title="{{title}}">
+                <div class="bar">
+                    {{#segments}}
+                    <div class="segment" style="background-color:{{color}}; width:{{width}}%"></div>
+                    {{/segments}}
+                </div>
+            </div>
+        </div>
+        {{/items}}
+    </div>
+</script>
+<script id="PXP.SummaryDetailsHeading" type="text/html">
+    <h1 style="margin-bottom: 0">
+        <span class="subtitle">{{title}}</span>
+        <a href="#" data-action="CloseSummaryDetails">{{{heading}}}</a>
+    </h1>
+    <div class="btn btn-link dismiss-btn" data-action="CloseSummaryDetails">
+        <span><i class="glyphicon glyphicon-chevron-down"></i></span>
+        <span>Dismiss</span>
+        <span><i class="glyphicon glyphicon-chevron-down"></i></span>
+    </div>
+    <div class="loader"><span>
+        <img src="Images/PXP/OEN_ajax-loader_gray.gif" alt="loading" />
+        Please Wait...
+    </span></div>
+</script>
+<script id="PXP.SchoolTermDetailGrids" type="text/html">
+    <div class="pxp-ring-chart">
+        {{#extraFields.length}}
+        <ul>
+            {{#extraFields}}
+            <li><span>{{name}}:</span><span>{{value}}</span></li>
+            {{/extraFields}}
+        </ul>
+        {{/extraFields.length}}
+    </div>
+    <div class="summary-details-table">
+        {{#Legend}}{{/Legend}}
+
+        {{#Schools}}
+        <h2>{{SchoolName}} {{Year}}</h2>
+        <table class="table table-striped">
+            <caption class="sr-only">Attendance Details: {{SchoolName}} {{Year}}</caption>
+            <thead>
+                <tr>
+                    {{#Headings}}
+                    <th {{#colspan}}colspan="{{colspan}}"{{/colspan}}>{{columnTitle}}</th>
+                    {{/Headings}}
+                </tr>
+            </thead>
+            {{#Terms}}
+            <thead>
+                <tr><th colspan="100%">{{TermName}}</th></tr>
+            </thead>
+            <tbody>
+                {{#Rows}}
+                <tr>
+                    {{#Cells}}
+                    <td>{{{.}}}</td>
+                    {{/Cells}}
+                </tr>
+                {{/Rows}}
+            </tbody>
+            {{/Terms}}
+        </table>
+        {{/Schools}}
+    </div>
+</script>
+<script id="PXP.SummaryDetails" type="text/html">
+    <div class="pxp-ring-chart">
+        {{#extraFields.length}}
+        <ul>
+            {{#extraFields}}
+            <li><span>{{name}}:</span><span>{{value}}</span></li>
+            {{/extraFields}}
+        </ul>
+        {{/extraFields.length}}
+    </div>
+    <div class="summary-details-table">
+        {{#Legend}}{{/Legend}}
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    {{#headings}}
+                    <th {{#colspan}}colspan="{{colspan}}"{{/colspan}}>{{columnTitle}}</th>
+                    {{/headings}}
+                </tr>
+            </thead>
+            <tbody>
+                {{#rows}}
+                <tr>
+                    {{#cells}}
+                    <td>{{{.}}}</td>
+                    {{/cells}}
+                </tr>
+                {{/rows}}
+            </tbody>
+        </table>
+    </div>
+</script>
+<script id="PXP.Announcements" type="text/html">
+    <div class="title">
+        District Announcements
+    </div>
+
+    <div class="st-modal-content">
+    
+            <span style="font-style:italic">
+                None
+            </span>
+        
+    </div>
+</script>
+<script id="PXP.StackItem.Heading" type="text/html">
+    <span>
+        {{{heading_text}}}
+    </span>
+</script>
+<script id="PXP.StackItem" type="text/html">
+    <div class="content-stack-item">
+        {{#title}}
+        <h2>{{title}}</h2>
+        {{/title}}
+        <div class="loader"><span>
+            <img width="100px" src="Images/PXP/OEN_ajax-loader_gray.gif" alt="loading" />
+            Please Wait...
+        </span></div>
+    </div>
+</script>
+<iframe class="collapse" id="keepAliveFrame"></iframe>
+</div>
+<footer aria-label="Footer" class="footer hide-for-print" id="ctl00_ctl00_PXPFooter">
+<div class="action-bar">
+<div aria-label="System links" id="SystemLinks" role="region">
+<ul class="system-links">
+<li><a href="Login_Student_PXP.aspx?Logout=1" id="ctl00_ctl00_lnkLogin">Logout</a></li>
+<li><a href="PXP2_Contact.aspx" id="ctl00_ctl00_lnkContact">Contact</a></li>
+<li><a href="PXP2_Privacy.aspx" id="ctl00_ctl00_lnkPrivacy">Privacy</a></li>
+</ul>
+</div>
+<div aria-label="Languages" class="languagesDropDown" id="ctl00_ctl00_ctl10_LanguagesDropDown" role="region">
+<div class="btn-group dropup">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
+<span>English</span>
+<span class="fa fa-caret-down" role="presentation"></span>
+</button>
+<div class="dropdown-menu" style="max-height:400px;overflow:auto;">
+<ul class="languageList list-group">
+<li data-selected="True">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=ENG" title="English">English</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=SPA" title="Spanish">español</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=AMH" title="Amharic">አማርኛ</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=CHI" title="Chinese">中國人</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=FRE" title="French">Français</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=KOR" title="Korean">한국인</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=POR" title="Portuguese">Português</a>
+</li>
+<li data-selected="False">
+<a class="dropdown-item" href="/PXP2_Gradebook.aspx?LNG=VIE" title="Vietnamese">Tiếng Việt</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="center" id="legal">
+<a href="http://www.edupoint.com/" target="_blank">
+<img alt="Edupoint Educational Systems" border="0" id="ctl00_ctl00_EESLogo" src="Images/ST_Revelation/EduPointLogo_WHITE.png" style="padding-bottom: 3px; border: 0px" title="Synergy 2023-MD.n-MC5"/></a>
+<br/>
+            ©Copyright 2023 Edupoint, LLC
+        </div>
+<div id="accessToggle">
+<i class="glyphicon glyphicon-ok checked"></i>
+<a data-action="ToggleAccessibleMode" href="#" role="button">Accessibility Mode</a>
+</div>
+</footer>
+</body>
+</html>
