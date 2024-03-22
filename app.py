@@ -41,13 +41,13 @@ def validate_phone():
     phone_number = request.form.get('phone_number')
     carrier = request.form.get('carrier')
     choices = ["lunch", "after ninth"]
-    # Generate a random verification code
+    # random verification code
     verification_code = str(random.randint(100000, 999999))
 
-    # Generate the token using a fixed salt
+    # token using a fixed salt
     token = s.dumps({'phone_number': f'{phone_number}@{carrier}', 'timestamp': datetime.now().isoformat(), 'verification_code': verification_code, 'choices': choices})
 
-    # Send the verification code via email to SMS
+    # Send the verification code from email to sms
     sender_email = os.getenv('SENDER_EMAIL')
     sender_password = os.getenv('SENDER_PASSWORD')
     sms_email = f'{re.sub("[^0-9]", "", phone_number)}@{carrier}'
@@ -59,13 +59,13 @@ def validate_phone():
 
 @app.route('/api/verify_code', methods=['POST'])
 def verify_code():
-    # The client should send the verification code and the signed token
+    #client enters and sends verification token and signed token
     print("entered flask verify")
 
     verification_code = request.form['verification_code']
     token = request.form['token']
     schoolID = request.form['schoolID']
-    # Verify the token using the same fixed salt
+    # verify the token using the same fixed salt
     try:
         data = s.loads(token, max_age=600, salt='phone-verification')
         phone_number = data['phone_number']
@@ -95,12 +95,9 @@ def verify_code():
     return jsonify({'message': 'Verification code confirmed'})
 
 #------------------------------------------------------------------------
-#------------------------------------------------------------------------
-#------------------------------------------------------------------------
-#------------------------------------------------------------------------
-#------------------------------------------------------------------------
 #    GRADE PARSER 
 #------------------------------------------------------------------------
+
 @app.route("/")
 def index():
     return render_template("login.html")
