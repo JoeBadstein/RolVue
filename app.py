@@ -8,7 +8,6 @@ import requests
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from itsdangerous import URLSafeTimedSerializer
-from replit import db
 import re
 
 app = Flask(__name__)
