@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', async function () {
       sessionStorage.setItem('spots_left', data);
       // Update the HTML to display the number of spots left
       const spotsElement = document.getElementById('spots-left');
-      if (spotsElement) {
-        spotsElement.textContent = `${sessionStorage.getItem('spots_left')}/20 spots left`;
-      }
+     
+      spotsElement.textContent = `4/20 spots left`;
+      
     });  
     
   let greeting = document.createElement('h2');
